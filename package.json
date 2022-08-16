@@ -1,0 +1,15 @@
+{
+  "name": "skill_1_easy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "reload",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Farolan Faisal <farolanfaisal@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "reload": "^3.2.0"
+  }
+}
