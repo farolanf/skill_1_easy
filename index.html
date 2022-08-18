@@ -17,7 +17,7 @@
       <div class="container">
         <h1 class="logo">
           <img src="images/logo.png">
-          <span class="title">Thor</span>
+          <a class="title" href="/">Thor</span>
         </h1>
         <nav>
           <ul>
@@ -39,7 +39,10 @@
       <div class="container">
         <h1>Delivering Solutions</h1>
         <p>Thor is a comprehensive, evolving cloud computing platform that includes a mixture of infrastructure as a service (IaaS), platform as a service (PaaS) and packaged software as a service (SaaS) offerings.</p>
-        <button type="button" class="btn-main">Get Started</button>
+        <div id="intro-buttons">
+          <button type="button" class="btn-main">Get Started</button>
+          <a id="question-btn" class="link-btn" href="contact.html">Question?</a>
+        </div>
       </div>
     </section>
 
@@ -107,11 +110,11 @@
           </ul>
         </div>
         <form id="contact-form">
-          <input name="name" placeholder="Name">
-          <input name="email" placeholder="Email">
-          <input name="phone" placeholder="Phone">
-          <textarea name="details" placeholder="Please describe what you need" rows="8"></textarea>
-          <button class="btn-main">Free Consultation</button>
+          <input name="name" placeholder="Name" required>
+          <input name="email" placeholder="Email" required>
+          <input name="subject" placeholder="Subject" required>
+          <textarea name="details" placeholder="Please describe what you need" rows="8" required></textarea>
+            <button class="btn-main">Free Consultation</button>
         </form>
       </div>
     </section>

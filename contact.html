@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Thor - Contact Us</title>
+    <link rel="icon" href="favicon.png" />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <body>
+    <div id="bg"></div>
+
+    <header>
+      <div class="container">
+        <h1 class="logo">
+          <img src="images/logo.png">
+          <a class="title" href="/">Thor</a>
+        </h1>
+      </div>
+    </header>
+
+    <div class="container">
+      <form id="contact-form">
+        <input name="name" placeholder="Name" required>
+        <input name="email" placeholder="Email" required>
+        <input name="subject" placeholder="Subject" required>
+        <textarea name="details" placeholder="Please describe what you need" rows="8" required></textarea>
+        <div id="contact-buttons">
+          <button class="btn-main">Free Consultation</button>
+          <a id="contact-cancel-btn" class="link-btn" href="/">Cancel</a>
+        </div>
+      </form>
+    </div>
+
+    <script src="index.js"></script>
+    <script src="/node_modules/reload/r"></script>
+  </body>
+</html>

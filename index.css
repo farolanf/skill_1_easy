@@ -3,6 +3,10 @@
   --lg-w: 1200px;
 }
 
+.link-btn {
+  text-decoration: none;
+}
+
 .icon-lg {
   width: 64px;
   height: 64px;
@@ -50,6 +54,8 @@
 
 .logo .title {
   margin-left: 3px;
+  text-decoration: unset;
+  color: white;
 }
 
 .logo img {
@@ -123,6 +129,17 @@ section#intro p {
   border-radius: 6px;
 }
 
+#intro-buttons {
+  position: relative;
+}
+
+#question-btn {
+  position: absolute;
+  top: 50%;
+  left: calc(100% + 20px);
+  transform: translateY(-50%);
+}
+
 section#services {
   margin-top: -80px;
   padding-top: 20px;
@@ -171,12 +188,23 @@ section#contact .container {
   box-shadow: 0 2px 35px rgba(0, 0, 0, 0.2);
   display: flex;
   flex-direction: column;
+  border-radius: 2px;
 }
 
 #contact-form input,
 #contact-form textarea {
   padding: 20px;
   margin-bottom: 20px;
+}
+
+#contact-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#contact-cancel-btn {
+  margin-left: 20px;
 }
 
 footer {
@@ -245,7 +273,7 @@ footer .copy {
     margin: 0 auto;
   }
 
-  section#intro button {
+  #intro-buttons {
     margin-top: 10px;
   }
   
@@ -276,6 +304,7 @@ footer .copy {
   #contact-form {
     margin-top: 10px;
     margin-bottom: -60px;
+    max-width: 800px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 60px 60px 172px 62px;
@@ -285,7 +314,7 @@ footer .copy {
     margin-left: 15px;
   }
 
-  #contact-form input[name="phone"] {
+  #contact-form input[name="subject"] {
     grid-column-end: span 2;
   }
 
