@@ -13,3 +13,7 @@
 - it is rich -- has text, images, and icons
 - it is pure HTML5, CSS, and vanilla JS -- no framework used
 - it has instructions to run the app and how to verify it (this file)
+
+# Attributions
+- icon by [eucalyp](https://www.flaticon.com/authors/eucalyp)
+- icon by [surang](https://www.flaticon.com/authors/surang)
