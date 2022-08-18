@@ -3,6 +3,18 @@
   --lg-w: 1200px;
 }
 
+.icon-lg {
+  width: 64px;
+  height: 64px;
+  filter: invert(23%) sepia(81%) saturate(2917%) hue-rotate(202deg) brightness(94%) contrast(94%);  
+}
+
+.icon-sm {
+  width: 32px;
+  height: 32px;
+  filter: invert(17%) sepia(47%) saturate(5068%) hue-rotate(215deg) brightness(102%) contrast(89%);
+}
+
 .text-xl {
   font-size: 44px;
 }
@@ -140,6 +152,16 @@ section#contact .container {
   flex-direction: column;
   align-items: center;
   text-align: center;
+}
+
+.contact-item {
+  display: flex;
+  flex-direction: row;
+}
+
+.contact-item .icon-sm {
+  margin-top: 20px;
+  margin-right: 20px;
 }
 
 #contact-form {
