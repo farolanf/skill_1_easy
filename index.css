@@ -108,6 +108,11 @@ section#intro button {
   margin-top: 40px;
 }
 
+section#services {
+  margin-top: -80px;
+  padding-top: 20px;
+}
+
 section#services .container {
   display: flex;
   flex-direction: column;
@@ -220,11 +225,6 @@ footer .copy {
     margin-left: 30px;
   }
 
-  section#services .card:nth-child(1),
-  section#services .card:nth-child(2) {
-    margin-top: -50px;
-  }
-
   section#contact .container {
     flex-direction: row;
     text-align: left;
@@ -260,6 +260,11 @@ footer .copy {
     grid-column-end: span 2;
   }
 
+  #contact-form button {
+    grid-column-end: span 2;
+    max-width: 230px;
+  }
+
   footer {
     text-align: unset;
   }
@@ -290,10 +295,6 @@ footer .copy {
   section#services .container {
     display: flex;
     flex-direction: row;
-  }
-
-  section#services .card {
-    margin-top: -50px;
   }
 
   footer .container {
