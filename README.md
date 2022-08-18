@@ -8,9 +8,11 @@
 - visit your machine address with the displayed port on your browser (eg. `localhost:8080`)
 
 # Verifying the app
-- it has the required company background, services, and contact sections
-- it is responsive, please resize the browser width to check how all sections displayed on small, medium, and large screens
-- it is rich -- has text, images, and icons
+- please click the `Question?` text button on the right side of the `Get Started` button on the main page
+- it has the required contact page
+- it navigates to main page when user cancel the form submission
+- it shows alert message and redirect back to main page when the contact form is submitted
+- it is responsive, please resize the browser width to check how the contact page displayed on small, medium, and large screens
 - it is pure HTML5, CSS, and vanilla JS -- no framework used
 - it has instructions to run the app and how to verify it (this file)
 
