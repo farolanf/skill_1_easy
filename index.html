@@ -15,20 +15,18 @@
 
     <header>
       <div class="container">
+        <img role="button" class="menu-btn icon-sm" src="icons/menu.png">
         <h1 class="logo">
           <img src="images/logo.png">
           <a class="title" href="/">Thor</span>
         </h1>
-        <nav>
+        <nav class="main-nav">
           <ul>
             <li>
-              <a id="home-btn" href="#" role="button">Home</a>
+              <a href="/" role="button">Home</a>
             </li>
             <li>
-              <a id="services-btn" href="#" role="button">Services</a>
-            </li>
-            <li>
-              <a id="contact-btn" href="#" role="button">Contact</a>
+              <a href="/contact.html" role="button">Contact Us</a>
             </li>
           </ul>
         </nav>
@@ -41,7 +39,6 @@
         <p>Thor is a comprehensive, evolving cloud computing platform that includes a mixture of infrastructure as a service (IaaS), platform as a service (PaaS) and packaged software as a service (SaaS) offerings.</p>
         <div id="intro-buttons">
           <button type="button" class="btn-main">Get Started</button>
-          <a id="question-btn" class="link-btn" href="contact.html">Question?</a>
         </div>
       </div>
     </section>
@@ -170,6 +167,21 @@
       </div>
       <div class="copy">Copyright (C) 2022 Farolan Faisal</div>
     </footer>
+
+    <aside id="sidebar">
+      <h1 class="logo">
+        <img src="images/logo.png">
+        <span>Thor</span>
+      </h1>
+      <ul>
+        <li>
+          <a href="/">Home</a>
+        </li>
+        <li>
+          <a href="/contact.html">Contact Us</a>
+        </li>
+      </ul>
+    </aside>
 
     <script src="index.js"></script>
     <script src="/node_modules/reload/r"></script>
