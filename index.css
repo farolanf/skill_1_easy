@@ -3,10 +3,20 @@
   --xl-w: 1200px;
 }
 
+.text-xl {
+  font-size: 44px;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  box-sizing: border-box;
+}
+
 .btn-main {
   outline: none;
   border: none;
-  padding: 20px 50px;
+  padding: 20px 30px;
   background-color: #104cba;
   color: white;
   font-size: larger;
@@ -108,6 +118,37 @@ section#services .card {
   margin-bottom: 30px;
 }
 
+section#contact {
+  background-color: aliceblue;
+}
+
+section#contact ul {
+  list-style: none;
+  padding: 0;
+}
+
+section#contact .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#contact-form {
+  align-self: stretch;
+  padding: 30px;
+  background-color: white;
+  box-shadow: 0 2px 35px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+}
+
+#contact-form input,
+#contact-form textarea {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
 footer {
   margin-top: 120px;
   background-color: #101c3d;
@@ -182,6 +223,41 @@ footer .copy {
   section#services .card:nth-child(1),
   section#services .card:nth-child(2) {
     margin-top: -50px;
+  }
+
+  section#contact .container {
+    flex-direction: row;
+    text-align: left;
+    padding: 20px;
+  }
+
+  section#contact .container > * {
+    flex-grow: 1;
+    padding: 20px 30px;
+  }
+
+  #contact-address {
+    max-width: 50%;
+  }
+
+  #contact-form {
+    margin-top: 10px;
+    margin-bottom: -60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 60px 60px 172px 62px;
+  }
+
+  #contact-form > input:nth-child(2) {
+    margin-left: 15px;
+  }
+
+  #contact-form input[name="phone"] {
+    grid-column-end: span 2;
+  }
+
+  #contact-form textarea {
+    grid-column-end: span 2;
   }
 
   footer {
