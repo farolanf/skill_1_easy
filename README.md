@@ -15,5 +15,8 @@
 - it has instructions to run the app and how to verify it (this file)
 
 # Attributions
-- icon by [eucalyp](https://www.flaticon.com/authors/eucalyp)
-- icon by [surang](https://www.flaticon.com/authors/surang)
+- icons by [eucalyp](https://www.flaticon.com/authors/eucalyp)
+- icons by [surang](https://www.flaticon.com/authors/surang)
+- icons by [pixel-perfect](https://www.flaticon.com/authors/pixel-perfect)
+- icons by [those-icons](https://www.flaticon.com/authors/those-icons)
+- icons by [www.freepik.com](www.freepik.com)
