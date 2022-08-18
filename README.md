@@ -1,8 +1,4 @@
 # Starting the server
-## Direct file mode
-- open `index.html` on your browser
-
-## Watch mode
 - run `npm install`
 - run `npm run watch`
 - visit your machine address with the displayed port on your browser (eg. `localhost:8080`)
